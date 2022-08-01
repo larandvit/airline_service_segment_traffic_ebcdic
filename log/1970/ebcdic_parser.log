@@ -1,0 +1,25 @@
+Application version: 2.3.0
+Stated: 2022-08-01 17:18:46.275081
+Parameters:
+-----------------------------------
+Data folder: .\data\1970
+Output folder: .\output\1970
+Layout file: layout\service_segment_data.json
+Output delimiter: \t
+Output file extension: .txt
+Ignore conversion errors: no
+Log file: .\log\1970\ebcdic_parser.log
+Python encoding:  yes
+Encoding name: cp037
+Group records:  no
+Group records level 2:  no
+Show information on screen: yes
+Show debug information: no
+Format: (4) Single schema variable length
+-----------------------------------
+
+Processing file... RG197.SERVSEG.Y70.ebc
+
+Processed type main: 190957
+Processed variable type main: 135035
+Completed: 2022-08-01 17:19:12.580035

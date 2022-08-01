@@ -1,0 +1,52 @@
+{
+	"description": "Service Segment Data",
+    "keyfields":[
+        {
+            "keytype":"layoutsize","name":"length","type":"integer","size":2
+        }
+    ],
+	"layouts": [
+		{
+			"layouttype": "main",
+			"layout": [
+				{"name":"filler02","type": "string","size":2},
+				{"name":"base_refernce_code","type": "string","size":1},
+				{"name":"city_airport_numeric_code1","type": "integer","size":5},
+				{"name":"city_airport_alpha_code1","type": "string","size":3},
+				{"name":"repeating_segment_count","type": "string","size":2},
+				{"name":"city_airport_numeric_code2","type": "integer","size":5},
+				{"name":"city_airport_alpha_code2","type": "string","size":3},
+				{"name":"filler09","type": "string","size":2},
+				{"name":"year_of_reporting_date","type": "string","size":2},
+				{"name":"month_of_reporting_date","type": "string","size":2},
+				{"name":"carrier_operation_code","type": "string","size":2},
+				{"name":"carrier_name_code","type": "string","size":3},
+				{"name":"number_of_downline_points","type": "string","size":2},
+				{"name":"service_class","type": "string","size":1},
+				{"name":"aircraft_group_code","type": "string","size":1},
+				{"name":"aircraft_type_code","type": "string","size":2},
+				{"name":"aircraft_cabin_configuration_code","type": "string","size":1},
+				{"name":"flight_number","type": "string","size":4},
+				{"name":"itinerary_indicator","type": "string","size":1},
+				{"name":"subsidy_eligible_ineligible_code","type": "string","size":1},
+				{"name":"reference_flight_number","type": "string","size":4},
+				{"name":"filler23","type": "string","size":2},
+				{"name":"service_segment_position_number","type": "string","size":2},
+				{"name":"segment_distance","type": "integer","size":3},
+				{"name":"filler26","type": "string","size":14},
+				{"name":"rest","type": "string","size":252}
+			],
+			"layoutvariable":[
+				{"name":"filler61","type": "string","size":2},
+				{"name":"downline_city_airport","type": "string","size":3},
+				{"name":"revenue_passangers_deplaning_first_class","type": "integer","size":5},
+				{"name":"revenue_passangers_deplaning_coach","type": "integer","size":5},
+				{"name":"revenue_cargo_tons_deplaning_us_mail_priority","type": "integer","size":5},
+				{"name":"revenue_cargo_tons_deplaning_us_mail_nonpriority","type": "integer","size":5},
+				{"name":"revenue_cargo_tons_deplaning_foreign_mail","type": "integer","size":5},
+				{"name":"revenue_cargo_tons_deplaning_express","type": "integer","size":5},
+				{"name":"revenue_cargo_tons_deplaning_freight","type": "integer","size":5}
+			]
+		}
+	]
+}

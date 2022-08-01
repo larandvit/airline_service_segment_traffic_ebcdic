@@ -1,0 +1,7 @@
+rem Batch file is aimed for Windows environment
+rem It is assumed that airline_service_segment_traffic_ebcdic folder is on the same level as ebcdic-parser one
+rem Replace 1970 folder with appropriate one
+
+cd d:\Projects\airline_service_segment_traffic_ebcdic
+cd d:
+..\ebcdic-parser\ebcdic_parser.py --inputfile ".\data\1970\RG197.SERVSEG.Y70.ebc" --outputfolder ".\output\1970" --layoutfile "layout\service_segment_data.json" --logfolder ".\log\1970"
