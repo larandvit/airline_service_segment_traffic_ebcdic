@@ -1,5 +1,5 @@
 Application version: 2.4.0
-Stated: 2022-08-01 22:55:45.989877
+Stated: 2022-08-01 23:56:49.682711
 Parameters:
 -----------------------------------
 Data folder: .\data\1970
@@ -21,4 +21,5 @@ Format: (4) Single schema variable length
 Processing file... RG197.SERVSEG.Y70.ebc
 
 Processed type main: 190957
-Completed: 2022-08-01 22:56:15.754575
+Processed variable type main: 135035
+Completed: 2022-08-01 23:57:22.871386
