@@ -4,8 +4,6 @@ from os import path
 import traceback
 import sys
 
-# http://www.3480-3590-data-conversion.com/article-mainframe-tape-details.html
-
 BLOCK_DESCRIPTION_WORD_BYTES = 4
 
 __author__ = "Vitaly Saversky"
